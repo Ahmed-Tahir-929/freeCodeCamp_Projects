@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="surveyForm.css">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Survey Form<h1>
+    <p id="description"><em>Thank you for joining us for our survey.</em></p>
+    <form id="survey-form" action="">
+      <fieldset class="acc-info">
+        <label id="name-label" for="name" style="font-size:20px;">Enter your name: <input id="name" type="text" name="name" placeholder="e.g, John" required></label>
+        <label id="email-label" for="email" style="font-size:20px;" >Enter your E-mail: <input id="email" type="email" name="email" placeholder="e.g, username@gmail.com" required></label>
+        <label id="number-label" for="number" style="font-size:20px;"> Enter your number:<input id="number" type="number" name="number" min="0" max="30" placeholder="phone-number"></label>
+      </fieldset>
+      <fieldset class="site-info">
+        <p>Where did you hear about us from?</p>
+          <select id="dropdown">
+            <option value="1">(select one)</option>
+            <option value="2">From Family and Friends</option>
+            <option value="3">From Advertisment</option>
+            <option value="4">Other</option>
+          </select>
+        </fieldset>
+        <fieldset class="s-rate">
+  <p>How much are you satisfied by us?</p>
+          <label for="rate1">Completely Satisfied<input id="rate1" type="radio" name="rate" required value="rate1"></label>
+          <label for="rate2">Partially Satisfied<input id="rate2" type="radio" name="rate" value="rate2"></label>
+          <label for="rate3">Not Satisfied<input id="rate3" type="radio" name="rate" value="rate3"></label>
+      </fieldset>
+      <fieldset class="improvements">
+        <p class="suggestion">What improvements would you suggest us? 
+        </p>
+          <label for="suggestion1">Improve our Website<input id="suggestion1" type="checkbox" value="1"></label>
+          <label for="suggestion2">Improve our Services<input id="suggestion2" type="checkbox" value="2"></label>
+          <label for="suggestion3">Update our Wiki<input id="suggestion3" type="checkbox" value="3"></label>
+          <label for="suggestion4">Upgrade our Customer Care<input id="suggestion4" type="checkbox" value="4"></label>
+      <p>We would love to hear your thoughts</p>
+      <textarea id="comments" rows="5" cols="30" minlength="100" placeholder="I love your website."></textarea>
+      </fieldset>
+      <input id="submit" type="submit">
+    </form>
+  </body>
+</html>

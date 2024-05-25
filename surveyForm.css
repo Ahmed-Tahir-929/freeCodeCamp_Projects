@@ -1,0 +1,149 @@
+body {
+margin: 0;
+background-color: rgb(15, 5, 23);
+
+font-family: cambria;
+
+}
+
+form {
+
+max-width: 600px;
+min-width: 300px;
+max-height: 300px;
+min-height: 150px;
+margin: 0 auto;
+
+}
+
+fieldset {
+  display: grid;
+}
+
+.acc-info {
+color: aliceblue;
+}
+
+.acc-info label {
+display: grid;
+margin: 5% 0 0 0;
+}
+
+.acc-info label input {
+  margin: 2% 0 0 0;
+  padding: 1%;
+  background-color: rgb(51, 51, 56);
+  color: aliceblue;
+  outline: none;
+  border: 2px solid aliceblue;
+}
+
+#phone-number {
+width: 40%;
+}
+
+h1[id="title"], p[id="description"] {
+color: aliceblue;
+position: relative;
+text-align:center;
+margin: 2% 0 0 0;
+}
+
+p {
+font-size: 20px;
+color: aliceblue;
+margin: 5% 0 0 0;
+}
+
+h1 {
+font-size: 45px;
+}
+
+input {
+display: flex;
+margin: 3% 0 0 0;
+}
+
+fieldset {
+background-color: rgb(28, 28, 31);
+border: none;
+}
+
+#dropdown {
+display: block;
+margin: 7% 0 -5% 0;
+outline: none;
+background-color: rgb(51, 51, 56);
+color: aliceblue;
+}
+
+.s-rate p {
+  margin: 0 0 0 0;
+}
+
+.s-rate label{
+  display: grid;
+  color: aliceblue;
+  font-size: 20px;
+  margin: 4% 0 0 5%;
+}
+
+.s-rate label input {
+  width: 50%;
+  margin: -5% 0 0 50%
+}
+
+.suggestion {
+  margin: 2% 0 0 0;
+}
+
+.improvements label {
+  display: grid;
+  color: aliceblue;
+  font-size: 20px;
+  margin: 4% 0 0% 5%;
+}
+
+.improvements label input {
+width: 50%;
+margin: -5% 0 0 70%;
+}
+
+textarea {
+  margin: 3% 0% 0 0%;
+  width: 100%;
+  border: 2px solid aliceblue;
+  outline: none;
+  background-color: rgb(51, 51, 56);
+  color: aliceblue;
+}
+
+input[id="submit"] {
+  width: 20%;
+  padding: 1%;
+  text-align: center;
+  background-color: rgb(51, 51, 56);
+  color: aliceblue;
+  margin: 2% 0 0 5%;
+  font-family: cambria;
+  border: 2px solid aliceblue;
+  font-size: 15px;
+  transition: .1s ease;
+}
+
+input[id="submit"]:hover {
+  background-color: aliceblue;
+  color: rgb(51, 51, 56);
+}
+
+select {
+  border: 1px solid aliceblue;
+  background-color: rgb(51, 51, 56);
+  font-size: 15px;
+  color: whitesmoke;
+  transition: .1s ease;
+}
+select:hover {
+background-color: aliceblue;
+color: rgb(51, 51, 56);
+}
